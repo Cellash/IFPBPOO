@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="modulo-gui-texto" />
+        <module name="modulo-loja" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="modulo-gui-texto" target="13" />
+      <module name="modulo-loja" target="13" />
+      <module name="projeto-loja-brinquedo" target="13" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
