@@ -4,9 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        FuncionarioHorista funcionarioHorista = new FuncionarioHorista("Tulio", 19);
-        FuncionarioCLT funcionarioCLT = new FuncionarioCLT("Erickson");
-        FuncionarioComissionado funcionarioComissionado = new FuncionarioComissionado("Erickson ", 1300.00);
+        FuncionarioHorista funcionarioHorista = new FuncionarioHorista("Caio-Horista", 19);
+        FuncionarioCLT funcionarioCLT = new FuncionarioCLT("ANA-CLT");
+        FuncionarioComissionado funcionarioComissionado = new FuncionarioComissionado("Maria-Comissionada ", 1300.00);
 
 
         System.out.println(funcionarioCLT);
@@ -15,6 +15,9 @@ public class Main {
 
         Loja loja = new Loja();
         loja.adicionaFuncionario(funcionarioCLT);
+        loja.adicionaFuncionario(funcionarioComissionado);
+        loja.adicionaFuncionario(funcionarioHorista);
+
 
 
     }
